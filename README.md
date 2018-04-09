@@ -1,0 +1,25 @@
+## Overview
+This shield uses SIMCOM's SIM7500-series 4G LTE CAT-1 module which supports a host of different features. It has integrated GNSS (GPS/GLONASS/BeiDou/Galileo) for location tracking. The shield can be used in different regions around the world simply by choosing the appropriate module version, either the SIM7500A (American), SIM7000C (Chinese), or SIM7000E (European) as detailed in my [Github wiki](https://github.com/botletics/SIM7000-LTE-Shield/wiki/Board-Versions). The shield also includes a high-accuracy I2C temperature sensor for IoT monitoring applications. To use the shield, simply follow the [step-by-step wiki](https://github.com/botletics/SIM7000-LTE-Shield/wiki) to attach the headers, plug the shield into an Arduino, insert a compatible SIM card (the kit comes with a free [Hologram.io](https://hologram.io/) global SIM card), attach the dual LTE diversity/GPS antenna, power it via micro USB, and you're ready to load the example code!
+
+You can buy the shield on [my website](https://www.botletics.com/products/sim7500-shield)
+
+Check out the [comprehensive wiki]() to get started with setup instructions, example code, and more!
+
+All PCB design files and hardware are released under the [Creative Commons Attribution Share Alike 4.0 license](https://choosealicense.com/licenses/cc-by-sa-4.0/).
+
+All other software is released under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/).
+
+## Arduino Library Support
+The library in this repo is an altered library built upon the original [Adafruit FONA library](https://github.com/adafruit/Adafruit_FONA) with added functionality for 2G (SIM800/808/900/908), 3G (SIM5320), SIM7000 LTE CAT-M/NB-IoT module, and SIM7500. As such, it's probably the best Arduino library for SIMCom modules available so far and I've also included examples and library functions focusing on sending data to the cloud via HTTP/HTTPS/MQTT with more functionalities always being tested!
+
+The following list is a summary of the things I've done so far:
+
+### Confirmed functionalities
+- 
+- Hologram SIM card works great on the AT&T LTE network in the USA!
+
+### To-Do List
+- Test literally EVERYTHING!!!
+
+### Completed Tasks
+- 
