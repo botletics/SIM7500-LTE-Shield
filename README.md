@@ -15,8 +15,11 @@ The library in this repo is an altered library built upon the original [Adafruit
 The following list is a summary of the things I've done so far:
 
 ### Confirmed functionalities
-- 
-- Hologram SIM card works great on the AT&T LTE network in the USA!
+- Setting and reading speaker volume
+- Sending and receiving text messages with Hologram SIM
+- Connects on either AT&T and Verizon with Hologram SIM card in the USA
+- GPS workss great!
+- Generic stuff (read SIM CCID, RSSI, network connection status, etc.)
 
 ### To-Do List
 - Test literally EVERYTHING!!!
