@@ -15,14 +15,15 @@ The library in this repo is an altered library built upon the original [Adafruit
 The following list is a summary of the things I've done so far:
 
 ### Confirmed functionalities
+- Getting network time (AT+CCLK?)
 - Setting and reading speaker volume
-- Sending and receiving text messages with Hologram SIM
+- SMS functions (send/receive SMS, reading number of SMS, reading all SMS, deleting SMS, etc.). Can send and receive texts directly from its phone number!
 - Connects on either AT&T and Verizon with Hologram SIM card in the USA
 - GPS workss great!
 - Generic stuff (read SIM CCID, RSSI, network connection status, etc.)
 
 ### To-Do List
-- Test literally EVERYTHING!!!
-
-### Completed Tasks
+- Test phone/audio functionality
+- Test HTTP/HTTPS
+- Test FTP
 - 
