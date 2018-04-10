@@ -20,7 +20,7 @@ The following list is a summary of the things I've done so far:
 - SMS functions (send/receive SMS, reading number of SMS, reading all SMS, deleting SMS, etc.). Can send and receive texts directly from its phone number!
 - Connects on either AT&T and Verizon with Hologram SIM card in the USA
 - GPS workss great!
-- Generic stuff (read SIM CCID, RSSI, network connection status, etc.)
+- Generic stuff (read SIM CCID, supply voltage, network connection status, RSSI, etc.)
 
 ### To-Do List
 - Test phone/audio functionality
