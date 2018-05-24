@@ -15,6 +15,7 @@ The library in this repo is an altered library built upon the original [Adafruit
 The following list is a summary of the things I've done so far:
 
 ### Confirmed functionalities
+- HTTP and HTTPS
 - Can send AT commands via USB port
 - Getting network time (AT+CCLK?)
 - Setting and reading speaker volume
