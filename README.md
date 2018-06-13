@@ -15,7 +15,7 @@ The library in this repo is an altered library built upon the original [Adafruit
 The following list is a summary of the things I've done so far:
 
 ### Confirmed functionalities
-- Voice calling with AT&T SIM card (does not work with Ting SIM)
+- Voice calling with AT&T SIM card (does not work with Ting SIM though)
 - HTTP and HTTPS
 - Can send AT commands via USB port
 - Getting network time (AT+CCLK?)
