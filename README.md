@@ -26,7 +26,5 @@ The following list is a summary of the things I've done so far:
 - Generic stuff (read SIM CCID, supply voltage, network connection status, RSSI, etc.)
 
 ### To-Do List
-- Phone/audio functionality with speaker and electret mic
-- HTTP/HTTPS
 - FTP
 - MQTT
