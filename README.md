@@ -16,7 +16,7 @@ The following list is a summary of the things I've done so far:
 
 ### Confirmed functionalities
 - Picking up, hanging up, and initiating phone calls
-- Voice calling with AT&T SIM card (does not work with Ting SIM though)
+- Voice calling with AT&T SIM card (does not work with Ting SIM though) with microphone and speaker!
 - HTTP and HTTPS
 - Can send AT commands via USB port
 - Getting network time (AT+CCLK?)
