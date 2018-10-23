@@ -10,7 +10,7 @@ All PCB design files and hardware are released under the [Creative Commons Attri
 All other software is released under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/).
 
 ## Arduino Library Support
-The library in this repo is an altered library built upon the original Adafruit FONA library with added functionality for 2G (SIM800/808/900/908), 3G (SIM5320), SIM7000 LTE CAT-M/NB-IoT module, and SIM7500. As such, it's probably the best Arduino library for SIMCom modules available so far and I've also included examples and library functions focusing on sending data to the cloud via HTTP/HTTPS/MQTT with more functionalities always being tested!
+The library that supports the SIM7500 module can be found [here on the SIM7000 shield repo](https://github.com/botletics/SIM7000-LTE-Shield). It is an altered library built upon the original Adafruit FONA library with added functionality for 2G (SIM800/808/900/908), 3G (SIM5320), SIM7000 LTE CAT-M/NB-IoT module, and SIM7500. As such, it's probably the best Arduino library for SIMCom modules available so far and I've also included examples and library functions focusing on sending data to the cloud via HTTP/HTTPS/MQTT with more functionalities always being tested!
 
 The following list is a summary of the things I've done so far:
 
