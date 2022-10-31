@@ -11,19 +11,3 @@ All other software is released under the [GNU General Public License v3.0](https
 
 ## Arduino Library Support
 The library that supports the SIM7500 module can be found on the [SIM7000-Shield-Library repo](https://github.com/botletics/SIM7000-Shield-Library) which is based on the [Adafruit FONA library](https://github.com/adafruit/Adafruit_FONA) and supports a variety of SIMCom 2G/3G/4G LTE/CAT-M/NB-IoT modules, including the SIM7500.
-
-### Confirmed functionalities
-- Picking up, hanging up, and initiating phone calls
-- Voice calling with AT&T SIM card (does not work with Ting SIM though) with microphone and speaker!
-- HTTP and HTTPS
-- Can send AT commands via USB port
-- Getting network time (AT+CCLK?)
-- Setting and reading speaker volume
-- SMS functions (send/receive SMS, reading number of SMS, reading all SMS, deleting SMS, etc.). Can send and receive texts directly from its phone number!
-- Connects on either AT&T and Verizon with Hologram SIM card in the USA
-- GPS workss great!
-- Generic stuff (read SIM CCID, supply voltage, network connection status, RSSI, etc.)
-
-### To-Do List
-- FTP
-- MQTT
