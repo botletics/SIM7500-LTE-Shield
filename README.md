@@ -1,7 +1,7 @@
 ## Overview
-This shield uses SIMCOM's SIM7500-series 4G LTE CAT-1 module which supports a host of different features. It has integrated GNSS (GPS/GLONASS/BeiDou/Galileo) for location tracking. The shield can be used in different regions around the world simply by choosing the appropriate module version, such as the SIM7500A (American), SIM7500E (European), or SIM7500G (Global) as detailed in the [Github wiki](https://github.com/botletics/SIM7500-LTE-Shield/wiki/Board-Versions). The shield also includes a high-accuracy I2C temperature sensor for IoT monitoring applications. To use the shield, simply follow the [step-by-step wiki](https://github.com/botletics/SIM7500-LTE-Shield/wiki) to attach the headers, plug the shield into an Arduino, insert a compatible SIM card (like a [Hologram SIM card](https://www.hologram.io/)), attach the dual LTE diversity/GPS antenna, power it via micro USB, and you're ready to load the example code!
+This shield uses SIMCOM's SIM7500-series 4G LTE CAT-1 module with integrated GNSS (GPS/GLONASS/BeiDou/Galileo) for location tracking. The shield can be used in different regions around the world by choosing the appropriate module version, such as the SIM7500A (Americas), SIM7500E (Europe), or SIM7500G (Global) as detailed in the [Github wiki](https://github.com/botletics/SIM7500-LTE-Shield/wiki/Board-Versions). The shield also includes a high-accuracy I2C temperature sensor for IoT monitoring applications. To use the shield, simply follow the [step-by-step wiki](https://github.com/botletics/SIM7500-LTE-Shield/wiki) to attach the headers, plug the shield into an Arduino, insert a compatible SIM card (like a [Hologram SIM card](https://www.hologram.io/)), attach the dual LTE diversity/GPS antenna, power it via micro USB, and you're ready to load the example code!
 
-You can buy the shield on [my website](https://www.botletics.com/products/sim7500-shield)
+Check out the shield [on Botletics](https://www.botletics.com/products/sim7500-shield)
 
 Check out the [comprehensive wiki](https://github.com/botletics/SIM7500-LTE-Shield/wiki) to get started with setup instructions, example code, and more!
 
@@ -10,9 +10,7 @@ All PCB design files and hardware are released under the [Creative Commons Attri
 All other software is released under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/).
 
 ## Arduino Library Support
-The library that supports the SIM7500 module can be found [here on the SIM7000 shield repo](https://github.com/botletics/SIM7000-LTE-Shield). It is an altered library built upon the original Adafruit FONA library with added functionality for 2G (SIM800/808/900/908), 3G (SIM5320), SIM7000 LTE CAT-M/NB-IoT module, and SIM7500. As such, it's probably the best Arduino library for SIMCom modules available so far and I've also included examples and library functions focusing on sending data to the cloud via HTTP/HTTPS/MQTT with more functionalities always being tested!
-
-The following list is a summary of the things I've done so far:
+The library that supports the SIM7500 module can be found on the [SIM7000-Shield-Library repo](https://github.com/botletics/SIM7000-Shield-Library) which is based on the [Adafruit FONA library](https://github.com/adafruit/Adafruit_FONA) and supports a variety of SIMCom 2G/3G/4G LTE/CAT-M/NB-IoT modules, including the SIM7500.
 
 ### Confirmed functionalities
 - Picking up, hanging up, and initiating phone calls
